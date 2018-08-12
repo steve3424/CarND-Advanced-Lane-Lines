@@ -117,6 +117,7 @@ Finally I calculated the offset. I calculated the base X position by evaluating 
 
 #### 6. Drawing the lines
 Finally I could draw the lines I found onto the images. I used the function called draw_lines() which took in the binary_warped image used for finding the lines as well as the polynomial fit and the inverse perspective matrix used to reverse the perspective transform. This was able to draw lines onto the warped image, reverse the warp to the original perspective, then add the drawn polynomial lines to the original image. 
+![Alt text](images/final_output.png?raw=True)
 
 ---
 
