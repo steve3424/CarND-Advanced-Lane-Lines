@@ -23,6 +23,7 @@ The goals / steps of this project are the following:
 #### 1. Object points and image points
 The first step in calibrating a camera is to create the object points and image points. I did this in the third cell of the project notebook. Using a list of 20 calibration images and the function cv2.findChessboardCorners() I was able to create a list of all the found corners paired with the object points to be used in the next calibration step. Here is one example of a calibration image with the corners drawn on it:
 ![alt text][images/drawn_corners.jpg]
+![Alt text](images/drawn_cornes.jpg?raw=True)
 
 #### 2. Camera matrix and distortion coefficients
 The next cell contains the function used for finding the camera matrix and distortion coefficients:
