@@ -1,0 +1,6 @@
+**See project review
+*add widget in jupyter notebook for testing variables
+*display mini-map of sliding window visualization for each frame of video
+*add multiple frame averaging
+*add lane width 
+*add more into the line class variables
